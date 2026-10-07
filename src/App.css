@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 16px;
+  background: #f3f6fa;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  color: #1a1f2e;
+}
+
+.app {
+  width: 100%;
+  max-width: 560px;
+  background: #fff;
+  border: 2px solid #d5e0ec;
+  border-radius: 20px;
+  padding: 28px;
+}
+
+h1 {
+  margin: 0 0 18px;
+  font-size: 1.6rem;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+}
+
+.form {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.form input[type='text'] {
+  flex: 1;
+  padding: 10px 14px;
+  font: inherit;
+  border: 2px solid #c3d3e3;
+  border-radius: 10px;
+}
+
+.primaire {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  background: #1c7ec2;
+  color: #fff;
+  font-weight: 600;
+}
+
+.liste {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #e6edf4;
+}
+
+.item label {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  flex: 1;
+}
+
+.item input[type='checkbox'] {
+  width: 20px;
+  height: 20px;
+  accent-color: #1c7ec2;
+}
+
+.item .terminee span {
+  text-decoration: line-through;
+  color: #9aa5b1;
+}
+
+.suppr {
+  background: none;
+  border: none;
+  color: #c0392b;
+  font-size: 1rem;
+  padding: 4px 8px;
+}
+
+.vide {
+  text-align: center;
+  color: #9aa5b1;
+  padding: 18px 0;
+  margin: 0;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.actions button {
+  padding: 8px 14px;
+  border: 1px solid #c3d3e3;
+  border-radius: 8px;
+  background: #fff;
+  color: #1c5f94;
+}
+
+.pied {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16px;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.compteur {
+  color: #5b6672;
+}
+
+.filtres {
+  display: flex;
+  gap: 8px;
+}
+
+.filtres button {
+  padding: 8px 14px;
+  border: 1px solid #1c7ec2;
+  border-radius: 10px;
+  background: #fff;
+  color: #1c7ec2;
+}
+
+.filtres button.actif {
+  background: #1c7ec2;
+  color: #fff;
+  font-weight: 700;
+}
