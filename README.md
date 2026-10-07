@@ -13,15 +13,15 @@ npm run dev
 
 ```
 src/
-  App.jsx                  # state (taches, filtre) + toutes les fonctions qui le modifient
+  App.jsx                 
   App.css
   main.jsx
   components/
-    TaskForm.jsx           # formulaire contrôlé (onAjout)
-    TaskList.jsx           # map() + key={tache.id}
-    TaskItem.jsx           # case, texte, bouton ✕ (onToggle, onSupprimer)
-    Compteur.jsx           # "1 tâche restante" / "N tâches restantes" / "Tout est fait"
-    Filtres.jsx            # Toutes / En cours / Terminées (classe actif)
+    TaskForm.jsx
+    TaskList.jsx
+    TaskItem.jsx
+    Compteur.jsx
+    Filtres.jsx 
 ```
 
 ## Fonctionnalites
