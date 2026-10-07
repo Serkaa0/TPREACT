@@ -1,6 +1,6 @@
 # Gestionnaire de tâches (TP ReactJS)
 
-**Noms :** Serkan, (ajouter le/les autres noms ici)
+**Noms :** Serkan, Arthur
 
 ## Lancer le projet
 
@@ -24,13 +24,10 @@ src/
     Filtres.jsx            # Toutes / En cours / Terminées (classe actif)
 ```
 
-## Fonctionnalités
+## Fonctionnalites
 
-- Ajouter une tâche (refus des tâches vides ou d'espaces, champ vidé après ajout)
-- Cocher / décocher, supprimer
+- Ajouter une tache
+- Cocher, décocher, supprimer
 - Supprimer les terminées, tout marquer comme fait
-- Compteur accordé, calculé à chaque rendu (pas de state)
-- Filtres, liste filtrée calculée (pas de state)
+- Filtres, liste filtrée et calculée
 - "Aucune tâche" quand le filtre ne renvoie rien
-
-Aucune bibliothèque supplémentaire (React + Vite uniquement).
